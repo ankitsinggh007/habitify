@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.backDrops {
+    background-color: black;
+    z-index: 25;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: .5;
+    height: 145vh;
+    width: 98.5vw;
+}
+
+.Modal1 {
+    z-index: 100;
+    position: absolute;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    top: 10%;
+    left: 35%;
+}

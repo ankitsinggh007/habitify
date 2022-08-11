@@ -1,0 +1,32 @@
+body{
+    background-color:#FFFFFF;
+}
+.list{
+cursor: pointer;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+width:55%;
+height:7rem;
+margin-top: .5rem;
+border-radius: .2rem;
+display :flex;
+font-family: Roboto;
+justify-content: space-between;
+align-items: center;
+}
+.name{
+    font-size: 2rem;
+}
+.icon{
+    position: relative;
+    font-size: 1.5rem;
+}
+.name{
+     width: 10rem;
+}
+.dropDown{
+    position: absolute;
+    width: 6rem;
+    height: 2rem;
+    bottom:0px;
+    opacity:0
+}

@@ -1,0 +1,94 @@
+.form {
+    width: 40rem;
+    border-radius: 2rem;
+}
+input,textarea,select{
+    border-radius: .5rem;
+    font-size: 2rem;
+    font-family: Roboto;
+    display: block;
+    width: 39%;
+    margin-top: 10px;
+}
+.form div {
+    margin-top: 10px;
+    padding: 4px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-family: Roboto;
+
+}
+.startDate input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-family: Roboto;
+    font-size: 2rem;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.habitTitle input {
+    font-size: 2rem;
+    font-family: Roboto;
+    display: block;
+    width: 79%;
+    margin-top: 10px;
+
+}
+
+.habitDescription {
+    font-size: 2rem;
+    font-family: Roboto;
+}
+
+.habitDescription textarea {
+    font-size: 2rem;
+    font-family: Roboto;
+    display: block;
+    width: 89%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.habitDescription select {
+    font-size: 2rem;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.time label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-family: Roboto;
+}
+
+.time select {
+    font-size: 2rem;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.submit {
+    width: 7rem;
+    margin: 0px 79%;
+}
+
+.days{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: monospace;
+}
+.days span {
+    width: 9%;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+    border-radius: 50%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+
+}

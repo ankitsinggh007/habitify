@@ -1,0 +1,39 @@
+body {
+box-sizing: border-box;
+margin: 0px;
+}
+.navBar{
+  margin: auto;
+  height:6rem;
+  width: 99%;
+  display: flex;
+  justify-content:space-between;
+}
+.navList{
+  display: flex;
+  width:40%;  
+}
+.logo{
+  width: 14%;
+  display: flex;
+  text-decoration: none;
+  cursor: pointer;
+}
+.logo div{
+text-align: center;
+align-self: center;
+font-size: 2.5rem;
+color: rgb(68, 68, 233);
+width: 55%;
+}
+.navList div {
+  width: 27rem;
+  padding:1rem;
+  text-align: center;
+  align-self: center;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.navList div:hover{
+  color: rgb(68, 68, 233);
+}

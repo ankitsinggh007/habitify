@@ -1,0 +1,46 @@
+/* .backGround{ */
+/* } */
+.bg{
+    width: 99.854%;
+    height: 48rem;
+
+}
+.absolute{
+    position: absolute;
+    top:12%;
+    left: 7.5%;
+    height: 50%;
+transition: all;
+}
+.slogan{
+    font-size:3.5rem;
+    color: white;
+    width: 47%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.description{
+    font-size: 2rem;
+    color: rgb(236, 221, 221);
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.Button{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+}
+button{
+    height: 4rem;
+    font-size: 1.5rem;
+    background-color:#4444E9;
+    width: 12%;
+   border-radius: .5rem;
+}
+.Link{
+    color: white;
+    text-decoration: none;
+}
